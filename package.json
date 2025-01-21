@@ -1,0 +1,8 @@
+{
+  "name": "my-career",
+  "module": "index.ts",
+  "workspaces": ["packages/*"],
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
