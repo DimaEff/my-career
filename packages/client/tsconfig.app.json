@@ -20,8 +20,9 @@
     "rootDir": "src", // явно указать корневую директорию
     "baseUrl": ".", // для правильного резолва путей
     "paths": {
-      "server/*": ["../server/dist/*"],
-      "server": ["../server/dist"]
+      "#server/*": ["../server/dist/*"],
+      "#server": ["../server/dist"],
+      "#client/*": ["./src/*"]
     }
   },
   "include": ["src"]

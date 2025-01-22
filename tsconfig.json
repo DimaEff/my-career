@@ -17,8 +17,12 @@
     "noUnusedParameters": false,
     "noPropertyAccessFromIndexSignature": false,
 
-    "moduleResolution": "bundler", // дефолтное значение для всех проектов
-    "composite": true, // для работы с проектными ссылками
-    "declaration": true, // для работы с проектными ссылками
+    "moduleResolution": "bundler",
+    "composite": true,
+    "declaration": true,
+    "paths": {
+      "#server/*": ["./packages/server/src/*"],
+      "#client/*": ["./packages/client/src/*"]
+    }
   }
 }
