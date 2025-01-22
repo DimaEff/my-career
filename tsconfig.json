@@ -24,5 +24,6 @@
       "#server/*": ["./packages/server/src/*"],
       "#client/*": ["./packages/client/src/*"]
     }
-  }
+  },
+  "exclude": ["**/dist/**", "**/node_modules/**"]
 }
