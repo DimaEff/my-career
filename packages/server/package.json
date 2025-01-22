@@ -15,9 +15,9 @@
     }
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "bun run --watch src/index.ts",
-    "build": "tsc --emitDeclarationOnly && bun build ./src/index.ts --outdir ./dist"
+    "build": "tsc --emitDeclarationOnly && bun build ./src/index.ts --outdir ./dist",
+    "test": "bun test"
   },
   "dependencies": {
     "@elysiajs/cors": "^1.2.0",
