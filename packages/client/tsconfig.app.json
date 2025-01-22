@@ -14,7 +14,11 @@
     "jsx": "react-jsx",
 
     /* Linting */
-    "noUncheckedSideEffectImports": true
+    "noUncheckedSideEffectImports": true,
+
+    "composite": true, // если используете project references
+    "rootDir": "src", // явно указать корневую директорию
+    "baseUrl": ".", // для правильного резолва путей
   },
   "include": ["src"]
 }

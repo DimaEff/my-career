@@ -1,7 +1,7 @@
 import cors from "@elysiajs/cors";
 import { compile as c, trpc } from "@elysiajs/trpc";
 import { initTRPC } from "@trpc/server";
-import { Elysia, t as T } from "elysia";
+import { Elysia } from "elysia";
 import { z } from "zod";
 
 const t = initTRPC.create();
